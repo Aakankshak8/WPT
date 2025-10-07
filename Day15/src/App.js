@@ -5,6 +5,7 @@ import UserDetailsForm from './usrDtl';
 // import CaseConverter from './cls';
 // import CaseConverter from './cls';
 // import FromViewToCompClass1 from './new';
+import Stringli from './stringli';
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       {/* <CaseConverter/> */}
       {/* <Calculator/> */}
     {/* <CaseConverter/> */}
+    <Stringli/>
     </div>
   );
 }
